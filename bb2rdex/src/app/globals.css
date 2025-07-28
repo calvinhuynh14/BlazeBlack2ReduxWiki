@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Color Palette
+   --color1: background (#18181b)
+   --color2: table dark section (#232326)
+   --color3: table light section (#3a3a3d)
+   --color4: table header/search bar (#ededed light, #a1a1aa dark)
+*/
+:root {
+  --background: #18181b; /* color 1 */
+  --table-dark: #232326; /* color 2 */
+  --table-light: #3a3a3d; /* color 3 */
+  --header-bg: #ededed; /* color 4 (light mode) */
+  --text-color-light: #ededed; /* color 5 */
+  --text-color-dark: #18181b; /* color 6 */
+  --hidden-ability: #ed4580; /* color 6 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #18181b; /* color 1 */
+    --table-dark: #232326; /* color 2 */
+    --table-light: #3a3a3d; /* color 3 */
+    --header-bg: #a1a1aa; /* color 4 (dark mode) */
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

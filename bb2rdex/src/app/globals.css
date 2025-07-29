@@ -13,7 +13,8 @@
   --header-bg: #ededed; /* color 4 (light mode) */
   --text-color-light: #ededed; /* color 5 */
   --text-color-dark: #18181b; /* color 6 */
-  --hidden-ability: #ed4580; /* color 6 */
+  --text-color-dark-light: #a1a1aa; /* color 7 */
+  --hidden-ability: #ed4580; /* color 8 */
 }
 
 @media (prefers-color-scheme: dark) {

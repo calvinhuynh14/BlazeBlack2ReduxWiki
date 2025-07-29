@@ -4,6 +4,8 @@ import NavBar from "./components/NavBar";
 import Table, { TableColumn } from "./components/Table";
 import InfiniteScroll from "react-infinite-scroll-component";
 import TypeBadge from "./components/TypeBadge";
+import Modal from "./components/Modal";
+import PokemonDetail from "./components/PokemonDetail";
 
 const PAGE_SIZE = 30;
 const CATEGORIES = ["Pokemon", "Ability", "Move", "Type", "Location"];
@@ -60,6 +62,8 @@ export default function Home() {
     column: "Number",
     direction: "asc" as "asc" | "desc",
   });
+  const [selectedPokemon, setSelectedPokemon] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Load all Pokémon on mount
   useEffect(() => {
@@ -116,6 +120,18 @@ export default function Home() {
     const next = displayedPokemon.length + PAGE_SIZE;
     setDisplayedPokemon(sorted.slice(0, next));
     setHasMore(next < sorted.length);
+  };
+
+  // Handle row click to open modal
+  const handleRowClick = (pokemon: any) => {
+    setSelectedPokemon(pokemon);
+    setIsModalOpen(true);
+  };
+
+  // Handle modal close
+  const handleModalClose = () => {
+    setIsModalOpen(false);
+    setSelectedPokemon(null);
   };
 
   // Table columns for Pokémon
@@ -178,6 +194,14 @@ export default function Home() {
     {
       label: "Atk",
       accessor: "STATS.ATK",
+      sortable: true,
+      render: (row) => (
+        <span className={getStatColor(row.STATS.ATK)}>{row.STATS.DEF}</span>
+      ),
+    },
+    {
+      label: "Def",
+      accessor: "STATS.DEF",
       sortable: true,
       render: (row) => (
         <span className={getStatColor(row.STATS.ATK)}>{row.STATS.DEF}</span>
@@ -254,9 +278,15 @@ export default function Home() {
                     : "asc",
               }))
             }
+            onRowClick={handleRowClick}
           />
         </InfiniteScroll>
       </div>
+
+      {/* Modal for Pokémon details */}
+      <Modal isOpen={isModalOpen} onClose={handleModalClose}>
+        <PokemonDetail pokemon={selectedPokemon} />
+      </Modal>
     </main>
   );
 }

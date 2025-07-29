@@ -14,6 +14,7 @@ type TableProps<T> = {
   data: T[];
   sortState: { column: string; direction: SortDirection };
   onSort: (column: string) => void;
+  onRowClick?: (row: T) => void;
 };
 
 export default function Table<T extends object>({
@@ -21,16 +22,17 @@ export default function Table<T extends object>({
   data,
   sortState,
   onSort,
+  onRowClick,
 }: TableProps<T>) {
   return (
     <div className="w-full overflow-x-auto rounded-lg shadow">
-      <table className="w-full bg-[var(--background)] text-[var(--foreground)]">
+      <table className="w-full bg-[var(--background)] text-[var(--text-color-light)]">
         <thead>
           <tr>
             {columns.map((col) => (
               <th
                 key={col.label}
-                className="px-4 py-2 text-left font-semibold cursor-pointer select-none bg-[var(--header-bg)]"
+                className="px-4 py-2 text-center font-semibold cursor-pointer select-none bg-[var(--header-bg)] text-[var(--text-color-dark)]"
                 onClick={() =>
                   col.sortable &&
                   onSort(
@@ -54,17 +56,26 @@ export default function Table<T extends object>({
           {data.map((row, i) => (
             <tr
               key={i}
-              className={
+              className={`${
                 i % 2 === 0
                   ? "bg-[var(--table-dark)]"
                   : "bg-[var(--table-light)]"
-              }
+              } ${
+                onRowClick
+                  ? "cursor-pointer hover:bg-[var(--accent)] hover:bg-opacity-20"
+                  : ""
+              }`}
+              onClick={() => onRowClick && onRowClick(row)}
             >
               {columns.map((col) => (
                 <td
                   key={col.label}
                   className={`px-4 py-2 text-center ${
-                    col.label === "Name" ? "font-bold" : "font-normal"
+                    col.label === "Name"
+                      ? "font-bold"
+                      : col.label === "Abilities"
+                      ? "italic"
+                      : "font-normal"
                   }`}
                 >
                   {col.render ? col.render(row) : (row as any)[col.accessor]}

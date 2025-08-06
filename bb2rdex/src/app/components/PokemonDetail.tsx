@@ -3,12 +3,19 @@ import TypeBadge from "./TypeBadge";
 import StatBar from "./StatBar";
 import AbilityDisplay from "./AbilityDisplay";
 import BSTDisplay from "./BSTDisplay";
+import EvolutionDisplay from "./EvolutionDisplay";
 
 interface PokemonDetailProps {
   pokemon: any;
+  allPokemon?: any[];
+  onPokemonChange?: (pokemonName: string) => void;
 }
 
-export default function PokemonDetail({ pokemon }: PokemonDetailProps) {
+export default function PokemonDetail({
+  pokemon,
+  allPokemon = [],
+  onPokemonChange,
+}: PokemonDetailProps) {
   if (!pokemon) return null;
 
   const bst =
@@ -130,6 +137,11 @@ export default function PokemonDetail({ pokemon }: PokemonDetailProps) {
         <h4 className="text-lg font-semibold text-[var(--text-color-light)] mb-3">
           Evolution
         </h4>
+        <EvolutionDisplay
+          pokemon={pokemon}
+          allPokemon={allPokemon}
+          onPokemonChange={onPokemonChange}
+        />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ export default function AbilityDisplay({
   return (
     <div className="flex items-center gap-2">
       <span
-        className={`px-3 py-1 rounded text-sm italic ${
+        className={`min-w-[120px] px-3 py-1 rounded text-sm italic ${
           index === 2
             ? "text-[var(--hidden-ability)]"
             : "text-[var(--text-color-light)]"

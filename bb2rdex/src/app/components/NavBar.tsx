@@ -17,13 +17,7 @@ export default function NavBar({
   onSearchChange,
 }: NavbarProps) {
   return (
-    <nav className="relative flex items-center justify-between px-8 py-4 bg-[var(--background)] text-[var(--foreground)] shadow w-full">
-      {/* Title on the left */}
-      <div className="flex-1 min-w-0">
-        <span className="font-bold text-lg md:text-xl whitespace-nowrap">
-          Pokemon Blaze Black / Volt White 2 Redux
-        </span>
-      </div>
+    <nav className="sticky top-0 z-50 flex items-center justify-between px-8 py-4 bg-[var(--background)] text-[var(--foreground)] shadow w-full">
       {/* Categories centered absolutely */}
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-2">
         {categories.map((cat) => (

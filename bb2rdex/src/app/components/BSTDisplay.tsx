@@ -23,7 +23,7 @@ export default function BSTDisplay({
     <div className="flex items-center gap-3">
       <div className="min-w-[80px] text-sm">
         <span className={getBSTColor()}>
-          Total
+          BST
           {hasChange && (
             <sup className="ml-1 text-xs">
               {bstChange > 0 ? "+" : ""}

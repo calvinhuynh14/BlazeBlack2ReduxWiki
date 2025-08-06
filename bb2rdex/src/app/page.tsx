@@ -134,6 +134,14 @@ export default function Home() {
     setSelectedPokemon(null);
   };
 
+  // Handle changing Pokémon in modal
+  const handlePokemonChange = (pokemonName: string) => {
+    const newPokemon = allPokemon.find((p) => p.Name === pokemonName);
+    if (newPokemon) {
+      setSelectedPokemon(newPokemon);
+    }
+  };
+
   // Table columns for Pokémon
   const columns: TableColumn<any>[] = [
     { label: "ID#", accessor: "Number", sortable: true },
@@ -257,7 +265,10 @@ export default function Home() {
         searchValue={search}
         onSearchChange={setSearch}
       />
-      <div className="w-full max-w-7xl mx-auto px-2 sm:px-4 md:px-8 py-4">
+      <div
+        className="w-full max-w-7xl mx-auto px-2 sm:px-4 md:px-8 py-4"
+        style={{ paddingTop: "80px" }}
+      >
         <InfiniteScroll
           dataLength={displayedPokemon.length}
           next={fetchMoreData}
@@ -285,7 +296,11 @@ export default function Home() {
 
       {/* Modal for Pokémon details */}
       <Modal isOpen={isModalOpen} onClose={handleModalClose}>
-        <PokemonDetail pokemon={selectedPokemon} />
+        <PokemonDetail
+          pokemon={selectedPokemon}
+          allPokemon={allPokemon}
+          onPokemonChange={handlePokemonChange}
+        />
       </Modal>
     </main>
   );

@@ -20,8 +20,8 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
       className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4"
       onClick={handleBackdropClick}
     >
-      <div className="bg-[var(--background)] rounded-lg p-4 w-full max-w-sm mx-auto border border-[var(--border)] overflow-y-auto">
-        <div className="flex justify-between items-center mb-4">
+      <div className="bg-[var(--background)] rounded-lg w-full max-w-md mx-auto border border-[var(--border)] max-h-[90vh] flex flex-col">
+        <div className="flex justify-between items-center p-4 flex-shrink-0">
           <h2 className="text-xl font-bold text-[var(--text-color-light)]">
             Pokémon Details
           </h2>
@@ -32,7 +32,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
             ×
           </button>
         </div>
-        {children}
+        <div className="flex-1 overflow-y-auto p-4">{children}</div>
       </div>
     </div>
   );

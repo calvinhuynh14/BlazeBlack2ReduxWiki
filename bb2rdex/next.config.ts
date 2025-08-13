@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
     process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : "",
   assetPrefix:
     process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki/" : "",
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;

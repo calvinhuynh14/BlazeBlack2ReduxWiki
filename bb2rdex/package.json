@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "node scripts/copy-sprites.js && next build",
+    "build": "node scripts/copy-sprites.js && node scripts/copy-data.js && next build",
     "export": "next build",
     "start": "next start",
     "lint": "next lint"

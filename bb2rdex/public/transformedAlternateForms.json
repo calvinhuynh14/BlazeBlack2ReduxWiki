@@ -1,0 +1,6161 @@
+[
+  {
+    "Name": "Deoxys - Attack",
+    "Number": 10001,
+    "TYPE": ["Psychic"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 180,
+      "DEF": 20,
+      "SPA": 180,
+      "SPD": 20,
+      "SPE": 150
+    },
+    "Ability": ["Pressure"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Wrap"
+      },
+      {
+        "Level": 1,
+        "Move": "Leer"
+      },
+      {
+        "Level": 97,
+        "Move": "Hyper Beam"
+      },
+      {
+        "Level": 41,
+        "Move": "Psychic"
+      },
+      {
+        "Level": 17,
+        "Move": "Teleport"
+      },
+      {
+        "Level": 9,
+        "Move": "Night Shade"
+      },
+      {
+        "Level": 81,
+        "Move": "Zap Cannon"
+      },
+      {
+        "Level": 33,
+        "Move": "Pursuit"
+      },
+      {
+        "Level": 25,
+        "Move": "Taunt"
+      },
+      {
+        "Level": 49,
+        "Move": "Superpower"
+      },
+      {
+        "Level": 73,
+        "Move": "Cosmic Power"
+      },
+      {
+        "Level": 89,
+        "Move": "Psycho Boost"
+      },
+      {
+        "Level": 57,
+        "Move": "Psycho Shift"
+      },
+      {
+        "Level": 65,
+        "Move": "Zen Headbutt"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Torment"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Aerial Ace"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Poison Jab"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Trick Room"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psyshock"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Low Sweep"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ally Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Bind",
+      "Low Kick",
+      "Snore",
+      "Sleep Talk",
+      "Trick",
+      "Role Play",
+      "Superpower",
+      "Magic Coat",
+      "Recycle",
+      "Skill Swap",
+      "Snatch",
+      "Signal Beam",
+      "Gravity",
+      "Drain Punch",
+      "Zen Headbutt",
+      "Stealth Rock",
+      "Wonder Room"
+    ],
+    "height": 17,
+    "weight": 608,
+    "base_experience": 270,
+    "baseFormNumber": 386,
+    "formIndex": 684,
+    "Other Form Index": [385, 684, 685, 686],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fighting", "Psychic"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Grass",
+        "Ice",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Rock",
+        "Dragon",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Bug", "Ghost", "Dark"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Deoxys - Defense",
+    "Number": 10002,
+    "TYPE": ["Psychic"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 70,
+      "DEF": 160,
+      "SPA": 70,
+      "SPD": 160,
+      "SPE": 90
+    },
+    "Ability": ["Pressure"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Wrap"
+      },
+      {
+        "Level": 1,
+        "Move": "Leer"
+      },
+      {
+        "Level": 97,
+        "Move": "Counter"
+      },
+      {
+        "Level": 41,
+        "Move": "Psychic"
+      },
+      {
+        "Level": 17,
+        "Move": "Teleport"
+      },
+      {
+        "Level": 9,
+        "Move": "Night Shade"
+      },
+      {
+        "Level": 81,
+        "Move": "Recover"
+      },
+      {
+        "Level": 73,
+        "Move": "Amnesia"
+      },
+      {
+        "Level": 33,
+        "Move": "Spikes"
+      },
+      {
+        "Level": 97,
+        "Move": "Mirror Coat"
+      },
+      {
+        "Level": 25,
+        "Move": "Knock Off"
+      },
+      {
+        "Level": 49,
+        "Move": "Snatch"
+      },
+      {
+        "Level": 73,
+        "Move": "Iron Defense"
+      },
+      {
+        "Level": 89,
+        "Move": "Psycho Boost"
+      },
+      {
+        "Level": 57,
+        "Move": "Psycho Shift"
+      },
+      {
+        "Level": 65,
+        "Move": "Zen Headbutt"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Torment"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Aerial Ace"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Poison Jab"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Trick Room"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psyshock"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Low Sweep"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ally Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Bind",
+      "Low Kick",
+      "Snore",
+      "Sleep Talk",
+      "Trick",
+      "Role Play",
+      "Magic Coat",
+      "Recycle",
+      "Knock Off",
+      "Skill Swap",
+      "Snatch",
+      "Signal Beam",
+      "Iron Defense",
+      "Gravity",
+      "Drain Punch",
+      "Zen Headbutt",
+      "Stealth Rock",
+      "Wonder Room"
+    ],
+    "height": 17,
+    "weight": 608,
+    "base_experience": 270,
+    "baseFormNumber": 386,
+    "formIndex": 685,
+    "Other Form Index": [385, 684, 685, 686],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fighting", "Psychic"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Grass",
+        "Ice",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Rock",
+        "Dragon",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Bug", "Ghost", "Dark"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Deoxys - Speed",
+    "Number": 10003,
+    "TYPE": ["Psychic"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 95,
+      "DEF": 90,
+      "SPA": 95,
+      "SPD": 90,
+      "SPE": 180
+    },
+    "Ability": ["Pressure"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Wrap"
+      },
+      {
+        "Level": 1,
+        "Move": "Leer"
+      },
+      {
+        "Level": 41,
+        "Move": "Psychic"
+      },
+      {
+        "Level": 73,
+        "Move": "Agility"
+      },
+      {
+        "Level": 9,
+        "Move": "Night Shade"
+      },
+      {
+        "Level": 17,
+        "Move": "Double Team"
+      },
+      {
+        "Level": 81,
+        "Move": "Recover"
+      },
+      {
+        "Level": 49,
+        "Move": "Swift"
+      },
+      {
+        "Level": 33,
+        "Move": "Pursuit"
+      },
+      {
+        "Level": 97,
+        "Move": "Extreme Speed"
+      },
+      {
+        "Level": 25,
+        "Move": "Knock Off"
+      },
+      {
+        "Level": 89,
+        "Move": "Psycho Boost"
+      },
+      {
+        "Level": 57,
+        "Move": "Psycho Shift"
+      },
+      {
+        "Level": 65,
+        "Move": "Zen Headbutt"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Torment"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Aerial Ace"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Poison Jab"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Trick Room"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psyshock"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Low Sweep"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ally Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Fire Punch",
+      "Ice Punch",
+      "Thunder Punch",
+      "Bind",
+      "Low Kick",
+      "Snore",
+      "Sleep Talk",
+      "Trick",
+      "Role Play",
+      "Magic Coat",
+      "Recycle",
+      "Knock Off",
+      "Skill Swap",
+      "Snatch",
+      "Signal Beam",
+      "Gravity",
+      "Drain Punch",
+      "Zen Headbutt",
+      "Stealth Rock",
+      "Wonder Room"
+    ],
+    "height": 17,
+    "weight": 608,
+    "base_experience": 270,
+    "baseFormNumber": 386,
+    "formIndex": 686,
+    "Other Form Index": [385, 684, 685, 686],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fighting", "Psychic"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Grass",
+        "Ice",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Rock",
+        "Dragon",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Bug", "Ghost", "Dark"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Wormadam - Sandy",
+    "Number": 10004,
+    "TYPE": ["Bug", "Ground"],
+    "STATS": {
+      "HP": 60,
+      "ATK": 79,
+      "DEF": 105,
+      "SPA": 59,
+      "SPD": 85,
+      "SPE": 36
+    },
+    "Ability": ["Anticipation", "Overcoat"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 32,
+        "Move": "Psybeam"
+      },
+      {
+        "Level": 47,
+        "Move": "Fissure"
+      },
+      {
+        "Level": 23,
+        "Move": "Confusion"
+      },
+      {
+        "Level": 44,
+        "Move": "Psychic"
+      },
+      {
+        "Level": 29,
+        "Move": "Harden"
+      },
+      {
+        "Level": 38,
+        "Move": "Flail"
+      },
+      {
+        "Level": 10,
+        "Move": "Protect"
+      },
+      {
+        "Level": 41,
+        "Move": "Attract"
+      },
+      {
+        "Level": 20,
+        "Move": "Hidden Power"
+      },
+      {
+        "Level": 26,
+        "Move": "Rock Blast"
+      },
+      {
+        "Level": 35,
+        "Move": "Captivate"
+      },
+      {
+        "Level": 15,
+        "Move": "Bug Bite"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Earthquake"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dig"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sandstorm"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Venoshock"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Struggle Bug"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulldoze"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Sleep Talk",
+      "Uproar",
+      "Endeavor",
+      "Skill Swap",
+      "Signal Beam",
+      "Earth Power",
+      "Stealth Rock",
+      "Bug Bite",
+      "Electroweb"
+    ],
+    "height": 5,
+    "weight": 65,
+    "base_experience": 148,
+    "baseFormNumber": 386,
+    "formIndex": 687,
+    "Other Form Index": [412, 687, 688],
+    "Defenses": {
+      "Immune": ["Electric"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fighting", "Poison", "Ground"],
+      "Neutral": [
+        "Normal",
+        "Grass",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Fire", "Water", "Ice", "Flying"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Wormadam - Trash",
+    "Number": 10005,
+    "TYPE": ["Bug", "Steel"],
+    "STATS": {
+      "HP": 60,
+      "ATK": 69,
+      "DEF": 95,
+      "SPA": 69,
+      "SPD": 95,
+      "SPE": 36
+    },
+    "Ability": ["Anticipation", "Overcoat"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 32,
+        "Move": "Psybeam"
+      },
+      {
+        "Level": 23,
+        "Move": "Confusion"
+      },
+      {
+        "Level": 44,
+        "Move": "Psychic"
+      },
+      {
+        "Level": 38,
+        "Move": "Flail"
+      },
+      {
+        "Level": 10,
+        "Move": "Protect"
+      },
+      {
+        "Level": 41,
+        "Move": "Attract"
+      },
+      {
+        "Level": 20,
+        "Move": "Hidden Power"
+      },
+      {
+        "Level": 29,
+        "Move": "Metal Sound"
+      },
+      {
+        "Level": 26,
+        "Move": "Mirror Shot"
+      },
+      {
+        "Level": 47,
+        "Move": "Iron Head"
+      },
+      {
+        "Level": 35,
+        "Move": "Captivate"
+      },
+      {
+        "Level": 15,
+        "Move": "Bug Bite"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Gyro Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Venoshock"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Struggle Bug"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Sleep Talk",
+      "Uproar",
+      "Endeavor",
+      "Skill Swap",
+      "Signal Beam",
+      "Iron Defense",
+      "Magnet Rise",
+      "Gunk Shot",
+      "Iron Head",
+      "Stealth Rock",
+      "Bug Bite",
+      "Electroweb"
+    ],
+    "height": 5,
+    "weight": 65,
+    "base_experience": 148,
+    "baseFormNumber": 413,
+    "formIndex": 688,
+    "Other Form Index": [412, 687, 688],
+    "Defenses": {
+      "Immune": ["Poison"],
+      "0.25x Resist": ["Grass"],
+      "0.5x Resist": [
+        "Normal",
+        "Ice",
+        "Psychic",
+        "Bug",
+        "Dragon",
+        "Steel",
+        "Fairy"
+      ],
+      "Neutral": [
+        "Water",
+        "Electric",
+        "Fighting",
+        "Ground",
+        "Flying",
+        "Rock",
+        "Ghost",
+        "Dark"
+      ],
+      "2x Weak ": [],
+      "4x Weak": ["Fire"]
+    }
+  },
+  {
+    "Name": "Shaymin - Sky",
+    "Number": 10006,
+    "TYPE": ["Grass", "Flying"],
+    "STATS": {
+      "HP": 100,
+      "ATK": 103,
+      "DEF": 75,
+      "SPA": 120,
+      "SPD": 75,
+      "SPE": 127
+    },
+    "Ability": ["Serene Grace"],
+    "Level Up Moves": [
+      {
+        "Level": 19,
+        "Move": "Leech Seed"
+      },
+      {
+        "Level": 1,
+        "Move": "Growth"
+      },
+      {
+        "Level": 28,
+        "Move": "Quick Attack"
+      },
+      {
+        "Level": 82,
+        "Move": "Sweet Kiss"
+      },
+      {
+        "Level": 37,
+        "Move": "Sweet Scent"
+      },
+      {
+        "Level": 10,
+        "Move": "Magical Leaf"
+      },
+      {
+        "Level": 46,
+        "Move": "Natural Gift"
+      },
+      {
+        "Level": 55,
+        "Move": "Worry Seed"
+      },
+      {
+        "Level": 64,
+        "Move": "Air Slash"
+      },
+      {
+        "Level": 73,
+        "Move": "Energy Ball"
+      },
+      {
+        "Level": 91,
+        "Move": "Leaf Storm"
+      },
+      {
+        "Level": 100,
+        "Move": "Seed Flare"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Swords Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Giga Drain",
+      "Sleep Talk",
+      "Synthesis",
+      "Covet",
+      "Tailwind",
+      "Last Resort",
+      "Worry Seed",
+      "Seed Bomb",
+      "Zen Headbutt"
+    ],
+    "height": 4,
+    "weight": 52,
+    "base_experience": 270,
+    "baseFormNumber": 413,
+    "formIndex": 689,
+    "Other Form Index": [491, 689],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Water", "Electric", "Grass", "Ground"],
+      "Neutral": [
+        "Normal",
+        "Fighting",
+        "Psychic",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Giratina - Origin",
+    "Number": 10007,
+    "TYPE": ["Ghost", "Dragon"],
+    "STATS": {
+      "HP": 150,
+      "ATK": 120,
+      "DEF": 100,
+      "SPA": 120,
+      "SPD": 100,
+      "SPE": 90
+    },
+    "Ability": ["Levitate"],
+    "Level Up Moves": [
+      {
+        "Level": 15,
+        "Move": "Slash"
+      },
+      {
+        "Level": 1,
+        "Move": "Scary Face"
+      },
+      {
+        "Level": 24,
+        "Move": "Destiny Bond"
+      },
+      {
+        "Level": 1,
+        "Move": "Dragon Breath"
+      },
+      {
+        "Level": 10,
+        "Move": "Ancient Power"
+      },
+      {
+        "Level": 28,
+        "Move": "Dragon Claw"
+      },
+      {
+        "Level": 37,
+        "Move": "Aura Sphere"
+      },
+      {
+        "Level": 33,
+        "Move": "Earth Power"
+      },
+      {
+        "Level": 42,
+        "Move": "Shadow Claw"
+      },
+      {
+        "Level": 19,
+        "Move": "Shadow Sneak"
+      },
+      {
+        "Level": 6,
+        "Move": "Ominous Wind"
+      },
+      {
+        "Level": 46,
+        "Move": "Shadow Force"
+      },
+      {
+        "Level": 50,
+        "Move": "Hex"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fly"
+      },
+      {
+        "Machine": 0,
+        "Name": "Roar"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Earthquake"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Aerial Ace"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dragon Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hone Claws"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Echoed Voice"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulldoze"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dragon Tail"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Spite",
+      "Icy Wind",
+      "Outrage",
+      "Sleep Talk",
+      "Iron Tail",
+      "Magic Coat",
+      "Hyper Voice",
+      "Gravity",
+      "Tailwind",
+      "Dark Pulse",
+      "Aqua Tail",
+      "Dragon Pulse",
+      "Earth Power",
+      "Draco Meteor",
+      "Iron Head"
+    ],
+    "height": 69,
+    "weight": 6500,
+    "base_experience": 340,
+    "baseFormNumber": 413,
+    "formIndex": 690,
+    "Other Form Index": [486, 690],
+    "Defenses": {
+      "Immune": ["Normal", "Fighting"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fire", "Water", "Electric", "Grass", "Poison", "Bug"],
+      "Neutral": ["Ground", "Flying", "Psychic", "Rock", "Steel"],
+      "2x Weak ": ["Ice", "Ghost", "Dragon", "Dark", "Fairy"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Rotom - Heat",
+    "Number": 10008,
+    "TYPE": ["Electric", "Fire"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 65,
+      "DEF": 107,
+      "SPA": 105,
+      "SPD": 107,
+      "SPE": 86
+    },
+    "Ability": ["Levitate"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Thunder Shock"
+      },
+      {
+        "Level": 1,
+        "Move": "Thunder Wave"
+      },
+      {
+        "Level": 15,
+        "Move": "Double Team"
+      },
+      {
+        "Level": 1,
+        "Move": "Confuse Ray"
+      },
+      {
+        "Level": 36,
+        "Move": "Substitute"
+      },
+      {
+        "Level": 8,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 57,
+        "Move": "Charge"
+      },
+      {
+        "Level": 1,
+        "Move": "Trick"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 22,
+        "Move": "Shock Wave"
+      },
+      {
+        "Level": 64,
+        "Move": "Discharge"
+      },
+      {
+        "Level": 29,
+        "Move": "Ominous Wind"
+      },
+      {
+        "Level": 43,
+        "Move": "Electro Ball"
+      },
+      {
+        "Level": 50,
+        "Move": "Hex"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Volt Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Spite",
+      "Sleep Talk",
+      "Pain Split",
+      "Uproar",
+      "Trick",
+      "Snatch",
+      "Signal Beam",
+      "Dark Pulse",
+      "Electroweb"
+    ],
+    "height": 3,
+    "weight": 3,
+    "base_experience": 182,
+    "baseFormNumber": 492,
+    "formIndex": 691,
+    "Other Form Index": [478, 691, 692, 693, 694, 695],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": ["Steel"],
+      "0.5x Resist": [
+        "Fire",
+        "Grass",
+        "Ice",
+        "Bug",
+        "Fairy",
+        "Electric",
+        "Flying"
+      ],
+      "Neutral": [
+        "Normal",
+        "Fighting",
+        "Poison",
+        "Psychic",
+        "Ghost",
+        "Dragon",
+        "Dark"
+      ],
+      "2x Weak ": ["Water", "Rock"],
+      "4x Weak": ["Ground"]
+    }
+  },
+  {
+    "Name": "Rotom - Wash",
+    "Number": 10009,
+    "TYPE": ["Electric", "Water"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 65,
+      "DEF": 107,
+      "SPA": 105,
+      "SPD": 107,
+      "SPE": 86
+    },
+    "Ability": ["Levitate"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Thunder Shock"
+      },
+      {
+        "Level": 1,
+        "Move": "Thunder Wave"
+      },
+      {
+        "Level": 15,
+        "Move": "Double Team"
+      },
+      {
+        "Level": 1,
+        "Move": "Confuse Ray"
+      },
+      {
+        "Level": 36,
+        "Move": "Substitute"
+      },
+      {
+        "Level": 8,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 57,
+        "Move": "Charge"
+      },
+      {
+        "Level": 1,
+        "Move": "Trick"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 22,
+        "Move": "Shock Wave"
+      },
+      {
+        "Level": 64,
+        "Move": "Discharge"
+      },
+      {
+        "Level": 29,
+        "Move": "Ominous Wind"
+      },
+      {
+        "Level": 43,
+        "Move": "Electro Ball"
+      },
+      {
+        "Level": 50,
+        "Move": "Hex"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Volt Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Spite",
+      "Sleep Talk",
+      "Pain Split",
+      "Uproar",
+      "Trick",
+      "Snatch",
+      "Signal Beam",
+      "Dark Pulse",
+      "Electroweb"
+    ],
+    "height": 3,
+    "weight": 3,
+    "base_experience": 182,
+    "baseFormNumber": 492,
+    "formIndex": 692,
+    "Other Form Index": [478, 691, 692, 693, 694, 695],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": ["Steel"],
+      "0.5x Resist": ["Fire", "Water", "Ice", "Flying"],
+      "Neutral": [
+        "Normal",
+        "Electric",
+        "Fighting",
+        "Poison",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Grass", "Ground"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Rotom - Frost",
+    "Number": 10010,
+    "TYPE": ["Electric", "Ice"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 65,
+      "DEF": 107,
+      "SPA": 105,
+      "SPD": 107,
+      "SPE": 86
+    },
+    "Ability": ["Levitate"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Thunder Shock"
+      },
+      {
+        "Level": 1,
+        "Move": "Thunder Wave"
+      },
+      {
+        "Level": 15,
+        "Move": "Double Team"
+      },
+      {
+        "Level": 1,
+        "Move": "Confuse Ray"
+      },
+      {
+        "Level": 36,
+        "Move": "Substitute"
+      },
+      {
+        "Level": 8,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 57,
+        "Move": "Charge"
+      },
+      {
+        "Level": 1,
+        "Move": "Trick"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 22,
+        "Move": "Shock Wave"
+      },
+      {
+        "Level": 64,
+        "Move": "Discharge"
+      },
+      {
+        "Level": 29,
+        "Move": "Ominous Wind"
+      },
+      {
+        "Level": 43,
+        "Move": "Electro Ball"
+      },
+      {
+        "Level": 50,
+        "Move": "Hex"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Volt Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Spite",
+      "Sleep Talk",
+      "Pain Split",
+      "Uproar",
+      "Trick",
+      "Snatch",
+      "Signal Beam",
+      "Dark Pulse",
+      "Electroweb"
+    ],
+    "height": 3,
+    "weight": 3,
+    "base_experience": 182,
+    "baseFormNumber": 487,
+    "formIndex": 693,
+    "Other Form Index": [478, 691, 692, 693, 694, 695],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Electric", "Flying", "Steel"],
+      "Neutral": [
+        "Normal",
+        "Water",
+        "Grass",
+        "Ice",
+        "Poison",
+        "Psychic",
+        "Bug",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Rock", "Fighting", "Fire", "Ground"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Rotom - Fan",
+    "Number": 10011,
+    "TYPE": ["Electric", "Flying"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 65,
+      "DEF": 107,
+      "SPA": 105,
+      "SPD": 107,
+      "SPE": 86
+    },
+    "Ability": ["Levitate"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Thunder Shock"
+      },
+      {
+        "Level": 1,
+        "Move": "Thunder Wave"
+      },
+      {
+        "Level": 15,
+        "Move": "Double Team"
+      },
+      {
+        "Level": 1,
+        "Move": "Confuse Ray"
+      },
+      {
+        "Level": 36,
+        "Move": "Substitute"
+      },
+      {
+        "Level": 8,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 57,
+        "Move": "Charge"
+      },
+      {
+        "Level": 1,
+        "Move": "Trick"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 22,
+        "Move": "Shock Wave"
+      },
+      {
+        "Level": 64,
+        "Move": "Discharge"
+      },
+      {
+        "Level": 29,
+        "Move": "Ominous Wind"
+      },
+      {
+        "Level": 43,
+        "Move": "Electro Ball"
+      },
+      {
+        "Level": 50,
+        "Move": "Hex"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Volt Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Spite",
+      "Sleep Talk",
+      "Pain Split",
+      "Uproar",
+      "Trick",
+      "Snatch",
+      "Signal Beam",
+      "Dark Pulse",
+      "Electroweb"
+    ],
+    "height": 3,
+    "weight": 3,
+    "base_experience": 182,
+    "baseFormNumber": 487,
+    "formIndex": 694,
+    "Other Form Index": [478, 691, 692, 693, 694, 695],
+    "Defenses": {
+      "Immune": ["Ground"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Grass", "Fighting", "Flying", "Bug", "Steel"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Poison",
+        "Psychic",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Ice", "Rock"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Rotom - Mow",
+    "Number": 10012,
+    "TYPE": ["Electric", "Grass"],
+    "STATS": {
+      "HP": 50,
+      "ATK": 65,
+      "DEF": 107,
+      "SPA": 105,
+      "SPD": 107,
+      "SPE": 86
+    },
+    "Ability": ["Levitate"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Thunder Shock"
+      },
+      {
+        "Level": 1,
+        "Move": "Thunder Wave"
+      },
+      {
+        "Level": 15,
+        "Move": "Double Team"
+      },
+      {
+        "Level": 1,
+        "Move": "Confuse Ray"
+      },
+      {
+        "Level": 36,
+        "Move": "Substitute"
+      },
+      {
+        "Level": 8,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 57,
+        "Move": "Charge"
+      },
+      {
+        "Level": 1,
+        "Move": "Trick"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 22,
+        "Move": "Shock Wave"
+      },
+      {
+        "Level": 64,
+        "Move": "Discharge"
+      },
+      {
+        "Level": 29,
+        "Move": "Ominous Wind"
+      },
+      {
+        "Level": 43,
+        "Move": "Electro Ball"
+      },
+      {
+        "Level": 50,
+        "Move": "Hex"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Volt Switch"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Spite",
+      "Sleep Talk",
+      "Pain Split",
+      "Uproar",
+      "Trick",
+      "Snatch",
+      "Signal Beam",
+      "Dark Pulse",
+      "Electroweb"
+    ],
+    "height": 3,
+    "weight": 3,
+    "base_experience": 182,
+    "baseFormNumber": 479,
+    "formIndex": 695,
+    "Other Form Index": [478, 691, 692, 693, 694, 695],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": ["Electric"],
+      "0.5x Resist": ["Water", "Grass", "Steel"],
+      "Neutral": [
+        "Normal",
+        "Ground",
+        "Fighting",
+        "Psychic",
+        "Rock",
+        "Flying",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Fire", "Ice", "Poison", "Bug"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Castform - Sunny",
+    "Number": 10013,
+    "TYPE": ["Fire"],
+    "STATS": {
+      "HP": 70,
+      "ATK": 70,
+      "DEF": 70,
+      "SPA": 70,
+      "SPD": 70,
+      "SPE": 70
+    },
+    "Ability": ["Forecast"],
+    "Level Up Moves": [
+      {
+        "Level": 20,
+        "Move": "Headbutt"
+      },
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 10,
+        "Move": "Ember"
+      },
+      {
+        "Level": 10,
+        "Move": "Water Gun"
+      },
+      {
+        "Level": 50,
+        "Move": "Hydro Pump"
+      },
+      {
+        "Level": 50,
+        "Move": "Blizzard"
+      },
+      {
+        "Level": 50,
+        "Move": "Fire Blast"
+      },
+      {
+        "Level": 10,
+        "Move": "Powder Snow"
+      },
+      {
+        "Level": 30,
+        "Move": "Rain Dance"
+      },
+      {
+        "Level": 30,
+        "Move": "Sunny Day"
+      },
+      {
+        "Level": 30,
+        "Move": "Hail"
+      },
+      {
+        "Level": 40,
+        "Move": "Weather Ball"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Flamethrower"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Blizzard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fire Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sandstorm"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Scald"
+      },
+      {
+        "Machine": 0,
+        "Name": "Incinerate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Retaliate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Work Up"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Sleep Talk",
+      "Tailwind",
+      "Last Resort"
+    ],
+    "height": 3,
+    "weight": 8,
+    "base_experience": 147,
+    "baseFormNumber": 479,
+    "formIndex": 696,
+    "Other Form Index": [350, 696, 697, 698],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fire", "Grass", "Ice", "Bug", "Steel", "Fairy"],
+      "Neutral": [
+        "Normal",
+        "Electric",
+        "Fighting",
+        "Poison",
+        "Flying",
+        "Psychic",
+        "Ghost",
+        "Dragon",
+        "Dark"
+      ],
+      "2x Weak ": ["Water", "Ground", "Rock"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Castform - Rainy",
+    "Number": 10014,
+    "TYPE": ["Water"],
+    "STATS": {
+      "HP": 70,
+      "ATK": 70,
+      "DEF": 70,
+      "SPA": 70,
+      "SPD": 70,
+      "SPE": 70
+    },
+    "Ability": ["Forecast"],
+    "Level Up Moves": [
+      {
+        "Level": 20,
+        "Move": "Headbutt"
+      },
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 10,
+        "Move": "Ember"
+      },
+      {
+        "Level": 10,
+        "Move": "Water Gun"
+      },
+      {
+        "Level": 50,
+        "Move": "Hydro Pump"
+      },
+      {
+        "Level": 50,
+        "Move": "Blizzard"
+      },
+      {
+        "Level": 50,
+        "Move": "Fire Blast"
+      },
+      {
+        "Level": 10,
+        "Move": "Powder Snow"
+      },
+      {
+        "Level": 30,
+        "Move": "Rain Dance"
+      },
+      {
+        "Level": 30,
+        "Move": "Sunny Day"
+      },
+      {
+        "Level": 30,
+        "Move": "Hail"
+      },
+      {
+        "Level": 40,
+        "Move": "Weather Ball"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Flamethrower"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Blizzard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fire Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sandstorm"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Scald"
+      },
+      {
+        "Machine": 0,
+        "Name": "Incinerate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Retaliate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Work Up"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Sleep Talk",
+      "Tailwind",
+      "Last Resort"
+    ],
+    "height": 3,
+    "weight": 8,
+    "base_experience": 147,
+    "baseFormNumber": 479,
+    "formIndex": 697,
+    "Other Form Index": [350, 696, 697, 698],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fire", "Water", "Ice", "Steel"],
+      "Neutral": [
+        "Normal",
+        "Fighting",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Electric", "Grass"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Castform - Snowy",
+    "Number": 10015,
+    "TYPE": ["Ice"],
+    "STATS": {
+      "HP": 70,
+      "ATK": 70,
+      "DEF": 70,
+      "SPA": 70,
+      "SPD": 70,
+      "SPE": 70
+    },
+    "Ability": ["Forecast"],
+    "Level Up Moves": [
+      {
+        "Level": 20,
+        "Move": "Headbutt"
+      },
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 10,
+        "Move": "Ember"
+      },
+      {
+        "Level": 10,
+        "Move": "Water Gun"
+      },
+      {
+        "Level": 50,
+        "Move": "Hydro Pump"
+      },
+      {
+        "Level": 50,
+        "Move": "Blizzard"
+      },
+      {
+        "Level": 50,
+        "Move": "Fire Blast"
+      },
+      {
+        "Level": 10,
+        "Move": "Powder Snow"
+      },
+      {
+        "Level": 30,
+        "Move": "Rain Dance"
+      },
+      {
+        "Level": 30,
+        "Move": "Sunny Day"
+      },
+      {
+        "Level": 30,
+        "Move": "Hail"
+      },
+      {
+        "Level": 40,
+        "Move": "Weather Ball"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Flamethrower"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Blizzard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fire Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sandstorm"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Scald"
+      },
+      {
+        "Machine": 0,
+        "Name": "Incinerate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Retaliate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Work Up"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Sleep Talk",
+      "Tailwind",
+      "Last Resort"
+    ],
+    "height": 3,
+    "weight": 8,
+    "base_experience": 147,
+    "baseFormNumber": 479,
+    "formIndex": 698,
+    "Other Form Index": [350, 696, 697, 698],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Ice"],
+      "Neutral": [
+        "Normal",
+        "Water",
+        "Electric",
+        "Grass",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Fire", "Fighting", "Rock", "Steel"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Basculin - Blue - Striped",
+    "Number": 10016,
+    "TYPE": ["Water"],
+    "STATS": {
+      "HP": 70,
+      "ATK": 92,
+      "DEF": 65,
+      "SPA": 80,
+      "SPD": 55,
+      "SPE": 98
+    },
+    "Ability": ["Rock Head", "Adaptability", "Mold Breaker"],
+    "Level Up Moves": [
+      {
+        "Level": 7,
+        "Move": "Headbutt"
+      },
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 20,
+        "Move": "Take Down"
+      },
+      {
+        "Level": 56,
+        "Move": "Thrash"
+      },
+      {
+        "Level": 36,
+        "Move": "Double Edge"
+      },
+      {
+        "Level": 10,
+        "Move": "Bite"
+      },
+      {
+        "Level": 1,
+        "Move": "Water Gun"
+      },
+      {
+        "Level": 46,
+        "Move": "Flail"
+      },
+      {
+        "Level": 41,
+        "Move": "Scary Face"
+      },
+      {
+        "Level": 24,
+        "Move": "Crunch"
+      },
+      {
+        "Level": 4,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 28,
+        "Move": "Aqua Tail"
+      },
+      {
+        "Level": 13,
+        "Move": "Aqua Jet"
+      },
+      {
+        "Level": 32,
+        "Move": "Soak"
+      },
+      {
+        "Level": 16,
+        "Move": "Chip Away"
+      },
+      {
+        "Level": 51,
+        "Move": "Final Gambit"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Surf"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Waterfall"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dive"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Scald"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Sleep Talk",
+      "Uproar",
+      "Superpower",
+      "Endeavor",
+      "Bounce",
+      "Aqua Tail",
+      "Zen Headbutt"
+    ],
+    "height": 10,
+    "weight": 180,
+    "base_experience": 161,
+    "baseFormNumber": 479,
+    "formIndex": 0,
+    "Other Form Index": [],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fire", "Water", "Ice", "Steel"],
+      "Neutral": [
+        "Normal",
+        "Fighting",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Electric", "Grass"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Darmanitan - Zen",
+    "Number": 10017,
+    "TYPE": ["Fire", "Psychic"],
+    "STATS": {
+      "HP": 105,
+      "ATK": 30,
+      "DEF": 105,
+      "SPA": 140,
+      "SPD": 105,
+      "SPE": 55
+    },
+    "Ability": ["Sheer Force", "Zen Mode"],
+    "Level Up Moves": [
+      {
+        "Level": 22,
+        "Move": "Fire Punch"
+      },
+      {
+        "Level": 14,
+        "Move": "Headbutt"
+      },
+      {
+        "Level": 1,
+        "Move": "Tackle"
+      },
+      {
+        "Level": 27,
+        "Move": "Thrash"
+      },
+      {
+        "Level": 1,
+        "Move": "Rage"
+      },
+      {
+        "Level": 9,
+        "Move": "Rage"
+      },
+      {
+        "Level": 30,
+        "Move": "Belly Drum"
+      },
+      {
+        "Level": 1,
+        "Move": "Rollout"
+      },
+      {
+        "Level": 3,
+        "Move": "Rollout"
+      },
+      {
+        "Level": 17,
+        "Move": "Swagger"
+      },
+      {
+        "Level": 19,
+        "Move": "Facade"
+      },
+      {
+        "Level": 39,
+        "Move": "Taunt"
+      },
+      {
+        "Level": 47,
+        "Move": "Superpower"
+      },
+      {
+        "Level": 54,
+        "Move": "Overheat"
+      },
+      {
+        "Level": 35,
+        "Move": "Hammer Arm"
+      },
+      {
+        "Level": 33,
+        "Move": "Flare Blitz"
+      },
+      {
+        "Level": 11,
+        "Move": "Fire Fang"
+      },
+      {
+        "Level": 1,
+        "Move": "Incinerate"
+      },
+      {
+        "Level": 6,
+        "Move": "Incinerate"
+      },
+      {
+        "Level": 25,
+        "Move": "Work Up"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Roar"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flamethrower"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Solar Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Earthquake"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dig"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fire Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Torment"
+      },
+      {
+        "Machine": 0,
+        "Name": "Will O Wisp"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Overheat"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulk Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Gyro Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "U Turn"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Smack Down"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flame Charge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Incinerate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulldoze"
+      },
+      {
+        "Machine": 0,
+        "Name": "Work Up"
+      }
+    ],
+    "Tutor Moves": [
+      "Fire Punch",
+      "Snore",
+      "Sleep Talk",
+      "Uproar",
+      "Heat Wave",
+      "Superpower",
+      "Endeavor",
+      "Zen Headbutt"
+    ],
+    "height": 13,
+    "weight": 929,
+    "base_experience": 189,
+    "baseFormNumber": 479,
+    "formIndex": 700,
+    "Other Form Index": [554, 554, 700],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": [
+        "Fire",
+        "Grass",
+        "Ice",
+        "Fighting",
+        "Psychic",
+        "Steel",
+        "Fairy"
+      ],
+      "Neutral": ["Normal", "Electric", "Poison", "Flying", "Bug", "Dragon"],
+      "2x Weak ": ["Water", "Ground", "Rock", "Ghost", "Dark"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Meloetta - Pirouette",
+    "Number": 10018,
+    "TYPE": ["Normal", "Fighting"],
+    "STATS": {
+      "HP": 100,
+      "ATK": 128,
+      "DEF": 90,
+      "SPA": 77,
+      "SPD": 77,
+      "SPE": 128
+    },
+    "Ability": ["Serene Grace"],
+    "Level Up Moves": [
+      {
+        "Level": 16,
+        "Move": "Sing"
+      },
+      {
+        "Level": 31,
+        "Move": "Psybeam"
+      },
+      {
+        "Level": 11,
+        "Move": "Confusion"
+      },
+      {
+        "Level": 57,
+        "Move": "Psychic"
+      },
+      {
+        "Level": 6,
+        "Move": "Quick Attack"
+      },
+      {
+        "Level": 85,
+        "Move": "Perish Song"
+      },
+      {
+        "Level": 71,
+        "Move": "Role Play"
+      },
+      {
+        "Level": 21,
+        "Move": "Teeter Dance"
+      },
+      {
+        "Level": 64,
+        "Move": "Hyper Voice"
+      },
+      {
+        "Level": 50,
+        "Move": "Wake Up Slap"
+      },
+      {
+        "Level": 43,
+        "Move": "U Turn"
+      },
+      {
+        "Level": 78,
+        "Move": "Close Combat"
+      },
+      {
+        "Level": 1,
+        "Move": "Round"
+      },
+      {
+        "Level": 36,
+        "Move": "Echoed Voice"
+      },
+      {
+        "Level": 26,
+        "Move": "Acrobatics"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dream Eater"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "U Turn"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Embargo"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Energy Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Trick Room"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hone Claws"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psyshock"
+      },
+      {
+        "Machine": 0,
+        "Name": "Telekinesis"
+      },
+      {
+        "Machine": 0,
+        "Name": "Low Sweep"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Echoed Voice"
+      },
+      {
+        "Machine": 0,
+        "Name": "Acrobatics"
+      },
+      {
+        "Machine": 0,
+        "Name": "Retaliate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Work Up"
+      }
+    ],
+    "Tutor Moves": [
+      "Fire Punch",
+      "Ice Punch",
+      "Thunder Punch",
+      "Low Kick",
+      "Snore",
+      "Sleep Talk",
+      "Heal Bell",
+      "Uproar",
+      "Helping Hand",
+      "Trick",
+      "Role Play",
+      "Magic Coat",
+      "Recycle",
+      "Knock Off",
+      "Skill Swap",
+      "Snatch",
+      "Hyper Voice",
+      "Signal Beam",
+      "Covet",
+      "Gravity",
+      "Last Resort",
+      "Drain Punch",
+      "Zen Headbutt",
+      "Wonder Room",
+      "Magic Room",
+      "Dual Chop",
+      "Relic Song"
+    ],
+    "height": 6,
+    "weight": 65,
+    "base_experience": 270,
+    "baseFormNumber": 351,
+    "formIndex": 701,
+    "Other Form Index": [647, 701],
+    "Defenses": {
+      "Immune": ["Ghost"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Bug", "Rock", "Dark"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Grass",
+        "Ice",
+        "Poison",
+        "Ground",
+        "Dragon",
+        "Steel"
+      ],
+      "2x Weak ": ["Fighting", "Flying", "Psychic", "Fairy"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Tornadus - Therian",
+    "Number": 10019,
+    "TYPE": ["Flying"],
+    "STATS": {
+      "HP": 79,
+      "ATK": 100,
+      "DEF": 80,
+      "SPA": 110,
+      "SPD": 90,
+      "SPE": 121
+    },
+    "Ability": ["Regenerator"],
+    "Level Up Moves": [
+      {
+        "Level": 1,
+        "Move": "Gust"
+      },
+      {
+        "Level": 85,
+        "Move": "Thrash"
+      },
+      {
+        "Level": 13,
+        "Move": "Bite"
+      },
+      {
+        "Level": 37,
+        "Move": "Agility"
+      },
+      {
+        "Level": 7,
+        "Move": "Swagger"
+      },
+      {
+        "Level": 61,
+        "Move": "Rain Dance"
+      },
+      {
+        "Level": 49,
+        "Move": "Crunch"
+      },
+      {
+        "Level": 1,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 19,
+        "Move": "Revenge"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 25,
+        "Move": "Air Cutter"
+      },
+      {
+        "Level": 31,
+        "Move": "Extrasensory"
+      },
+      {
+        "Level": 79,
+        "Move": "Hammer Arm"
+      },
+      {
+        "Level": 55,
+        "Move": "Tailwind"
+      },
+      {
+        "Level": 73,
+        "Move": "Dark Pulse"
+      },
+      {
+        "Level": 43,
+        "Move": "Air Slash"
+      },
+      {
+        "Level": 67,
+        "Move": "Hurricane"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Fly"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sludge Bomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Torment"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Aerial Ace"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulk Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "U Turn"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Embargo"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Smack Down"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sludge Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sky Drop"
+      },
+      {
+        "Machine": 0,
+        "Name": "Incinerate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Acrobatics"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Sleep Talk",
+      "Iron Tail",
+      "Uproar",
+      "Heat Wave",
+      "Role Play",
+      "Superpower",
+      "Knock Off",
+      "Tailwind",
+      "Dark Pulse",
+      "Foul Play"
+    ],
+    "height": 14,
+    "weight": 630,
+    "base_experience": 290,
+    "baseFormNumber": 351,
+    "formIndex": 705,
+    "Other Form Index": [640, 705],
+    "Defenses": {
+      "Immune": ["Ground"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Grass", "Fighting", "Bug"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Poison",
+        "Flying",
+        "Psychic",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Electric", "Ice", "Rock"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Thundurus - Therian",
+    "Number": 10020,
+    "TYPE": ["Electric", "Flying"],
+    "STATS": {
+      "HP": 79,
+      "ATK": 105,
+      "DEF": 70,
+      "SPA": 145,
+      "SPD": 80,
+      "SPE": 101
+    },
+    "Ability": ["Volt Absorb"],
+    "Level Up Moves": [
+      {
+        "Level": 85,
+        "Move": "Thrash"
+      },
+      {
+        "Level": 13,
+        "Move": "Bite"
+      },
+      {
+        "Level": 1,
+        "Move": "Thunder Shock"
+      },
+      {
+        "Level": 67,
+        "Move": "Thunder"
+      },
+      {
+        "Level": 37,
+        "Move": "Agility"
+      },
+      {
+        "Level": 7,
+        "Move": "Swagger"
+      },
+      {
+        "Level": 49,
+        "Move": "Crunch"
+      },
+      {
+        "Level": 1,
+        "Move": "Uproar"
+      },
+      {
+        "Level": 55,
+        "Move": "Charge"
+      },
+      {
+        "Level": 19,
+        "Move": "Revenge"
+      },
+      {
+        "Level": 1,
+        "Move": "Astonish"
+      },
+      {
+        "Level": 25,
+        "Move": "Shock Wave"
+      },
+      {
+        "Level": 79,
+        "Move": "Hammer Arm"
+      },
+      {
+        "Level": 31,
+        "Move": "Heal Block"
+      },
+      {
+        "Level": 73,
+        "Move": "Dark Pulse"
+      },
+      {
+        "Level": 61,
+        "Move": "Nasty Plot"
+      },
+      {
+        "Level": 43,
+        "Move": "Discharge"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Fly"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunderbolt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thunder"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Thief"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sludge Bomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Torment"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulk Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "U Turn"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Embargo"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Charge Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Smack Down"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sludge Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sky Drop"
+      },
+      {
+        "Machine": 0,
+        "Name": "Incinerate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Volt Switch"
+      },
+      {
+        "Machine": 0,
+        "Name": "Wild Charge"
+      }
+    ],
+    "Tutor Moves": [
+      "Thunder Punch",
+      "Snore",
+      "Sleep Talk",
+      "Iron Tail",
+      "Uproar",
+      "Role Play",
+      "Superpower",
+      "Knock Off",
+      "Dark Pulse",
+      "Foul Play"
+    ],
+    "height": 30,
+    "weight": 610,
+    "base_experience": 290,
+    "baseFormNumber": 351,
+    "formIndex": 706,
+    "Other Form Index": [641, 706],
+    "Defenses": {
+      "Immune": ["Ground"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Grass", "Fighting", "Flying", "Bug", "Steel"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Water",
+        "Electric",
+        "Poison",
+        "Psychic",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Fairy"
+      ],
+      "2x Weak ": ["Ice", "Rock"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Landorus - Therian",
+    "Number": 10021,
+    "TYPE": ["Ground", "Flying"],
+    "STATS": {
+      "HP": 89,
+      "ATK": 145,
+      "DEF": 90,
+      "SPA": 105,
+      "SPD": 80,
+      "SPE": 91
+    },
+    "Ability": ["Intimidate"],
+    "Level Up Moves": [
+      {
+        "Level": 37,
+        "Move": "Swords Dance"
+      },
+      {
+        "Level": 25,
+        "Move": "Rock Throw"
+      },
+      {
+        "Level": 55,
+        "Move": "Earthquake"
+      },
+      {
+        "Level": 67,
+        "Move": "Fissure"
+      },
+      {
+        "Level": 49,
+        "Move": "Rock Slide"
+      },
+      {
+        "Level": 85,
+        "Move": "Outrage"
+      },
+      {
+        "Level": 61,
+        "Move": "Sandstorm"
+      },
+      {
+        "Level": 7,
+        "Move": "Imprison"
+      },
+      {
+        "Level": 1,
+        "Move": "Rock Tomb"
+      },
+      {
+        "Level": 31,
+        "Move": "Extrasensory"
+      },
+      {
+        "Level": 1,
+        "Move": "Block"
+      },
+      {
+        "Level": 1,
+        "Move": "Mud Shot"
+      },
+      {
+        "Level": 79,
+        "Move": "Hammer Arm"
+      },
+      {
+        "Level": 13,
+        "Move": "Punishment"
+      },
+      {
+        "Level": 43,
+        "Move": "Earth Power"
+      },
+      {
+        "Level": 73,
+        "Move": "Stone Edge"
+      },
+      {
+        "Level": 19,
+        "Move": "Bulldoze"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Swords Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fly"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Earthquake"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dig"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Explosion"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sludge Bomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sandstorm"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Attract"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Brick Break"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulk Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "U Turn"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Polish"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Grass Knot"
+      },
+      {
+        "Machine": 0,
+        "Name": "Smack Down"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sludge Wave"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Bulldoze"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Outrage",
+      "Sleep Talk",
+      "Iron Tail",
+      "Role Play",
+      "Superpower",
+      "Knock Off",
+      "Block",
+      "Gravity",
+      "Earth Power",
+      "Stealth Rock"
+    ],
+    "height": 13,
+    "weight": 680,
+    "base_experience": 300,
+    "baseFormNumber": 351,
+    "formIndex": 707,
+    "Other Form Index": [644, 707],
+    "Defenses": {
+      "Immune": ["Electric", "Ground"],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fighting", "Poison", "Bug"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Grass",
+        "Flying",
+        "Psychic",
+        "Rock",
+        "Ghost",
+        "Dragon",
+        "Dark",
+        "Steel",
+        "Fairy"
+      ],
+      "2x Weak ": ["Water"],
+      "4x Weak": ["Ice"]
+    }
+  },
+  {
+    "Name": "Kyurem - Black",
+    "Number": 10022,
+    "TYPE": ["Dragon", "Ice"],
+    "STATS": {
+      "HP": 125,
+      "ATK": 170,
+      "DEF": 100,
+      "SPA": 120,
+      "SPD": 90,
+      "SPE": 95
+    },
+    "Ability": ["Teravolt"],
+    "Level Up Moves": [
+      {
+        "Level": 22,
+        "Move": "Ice Beam"
+      },
+      {
+        "Level": 78,
+        "Move": "Blizzard"
+      },
+      {
+        "Level": 1,
+        "Move": "Dragon Rage"
+      },
+      {
+        "Level": 36,
+        "Move": "Slash"
+      },
+      {
+        "Level": 1,
+        "Move": "Icy Wind"
+      },
+      {
+        "Level": 85,
+        "Move": "Outrage"
+      },
+      {
+        "Level": 29,
+        "Move": "Dragon Breath"
+      },
+      {
+        "Level": 15,
+        "Move": "Ancient Power"
+      },
+      {
+        "Level": 71,
+        "Move": "Endeavor"
+      },
+      {
+        "Level": 8,
+        "Move": "Imprison"
+      },
+      {
+        "Level": 64,
+        "Move": "Imprison"
+      },
+      {
+        "Level": 92,
+        "Move": "Hyper Voice"
+      },
+      {
+        "Level": 57,
+        "Move": "Dragon Pulse"
+      },
+      {
+        "Level": 50,
+        "Move": "Freeze Shock"
+      },
+      {
+        "Level": 43,
+        "Move": "Fusion Bolt"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fly"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Blizzard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dragon Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hone Claws"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Echoed Voice"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dragon Tail"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Outrage",
+      "Sleep Talk",
+      "Endeavor",
+      "Hyper Voice",
+      "Signal Beam",
+      "Roost",
+      "Dragon Pulse",
+      "Earth Power",
+      "Zen Headbutt",
+      "Draco Meteor",
+      "Iron Head"
+    ],
+    "height": 33,
+    "weight": 3250,
+    "base_experience": 350,
+    "baseFormNumber": 550,
+    "formIndex": 703,
+    "Other Form Index": [645, 702, 703],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Water", "Electric", "Grass"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Ice",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Ghost",
+        "Dark"
+      ],
+      "2x Weak ": ["Fighting", "Rock", "Dragon", "Steel", "Fairy"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Kyurem - White",
+    "Number": 10023,
+    "TYPE": ["Dragon", "Ice"],
+    "STATS": {
+      "HP": 125,
+      "ATK": 120,
+      "DEF": 90,
+      "SPA": 170,
+      "SPD": 100,
+      "SPE": 95
+    },
+    "Ability": ["Turboblaze"],
+    "Level Up Moves": [
+      {
+        "Level": 22,
+        "Move": "Ice Beam"
+      },
+      {
+        "Level": 78,
+        "Move": "Blizzard"
+      },
+      {
+        "Level": 1,
+        "Move": "Dragon Rage"
+      },
+      {
+        "Level": 36,
+        "Move": "Slash"
+      },
+      {
+        "Level": 1,
+        "Move": "Icy Wind"
+      },
+      {
+        "Level": 85,
+        "Move": "Outrage"
+      },
+      {
+        "Level": 29,
+        "Move": "Dragon Breath"
+      },
+      {
+        "Level": 15,
+        "Move": "Ancient Power"
+      },
+      {
+        "Level": 71,
+        "Move": "Endeavor"
+      },
+      {
+        "Level": 8,
+        "Move": "Imprison"
+      },
+      {
+        "Level": 64,
+        "Move": "Imprison"
+      },
+      {
+        "Level": 92,
+        "Move": "Hyper Voice"
+      },
+      {
+        "Level": 57,
+        "Move": "Dragon Pulse"
+      },
+      {
+        "Level": 50,
+        "Move": "Ice Burn"
+      },
+      {
+        "Level": 43,
+        "Move": "Fusion Flare"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fly"
+      },
+      {
+        "Machine": 0,
+        "Name": "Ice Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Blizzard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psychic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Light Screen"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Slide"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Sunny Day"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Ball"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Tomb"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dragon Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Payback"
+      },
+      {
+        "Machine": 0,
+        "Name": "Fling"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Shadow Claw"
+      },
+      {
+        "Machine": 0,
+        "Name": "Flash Cannon"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hone Claws"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Echoed Voice"
+      },
+      {
+        "Machine": 0,
+        "Name": "Dragon Tail"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Outrage",
+      "Sleep Talk",
+      "Endeavor",
+      "Hyper Voice",
+      "Signal Beam",
+      "Roost",
+      "Dragon Pulse",
+      "Earth Power",
+      "Zen Headbutt",
+      "Draco Meteor",
+      "Iron Head"
+    ],
+    "height": 36,
+    "weight": 3250,
+    "base_experience": 350,
+    "baseFormNumber": 550,
+    "formIndex": 702,
+    "Other Form Index": [645, 702, 703],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Water", "Electric", "Grass"],
+      "Neutral": [
+        "Normal",
+        "Fire",
+        "Ice",
+        "Poison",
+        "Ground",
+        "Flying",
+        "Psychic",
+        "Bug",
+        "Ghost",
+        "Dark"
+      ],
+      "2x Weak ": ["Fighting", "Rock", "Dragon", "Steel", "Fairy"],
+      "4x Weak": []
+    }
+  },
+  {
+    "Name": "Keldeo - Resolute",
+    "Number": 10024,
+    "TYPE": ["Water", "Fighting"],
+    "STATS": {
+      "HP": 91,
+      "ATK": 72,
+      "DEF": 90,
+      "SPA": 129,
+      "SPD": 90,
+      "SPE": 108
+    },
+    "Ability": ["Justified"],
+    "Level Up Moves": [
+      {
+        "Level": 49,
+        "Move": "Swords Dance"
+      },
+      {
+        "Level": 7,
+        "Move": "Double Kick"
+      },
+      {
+        "Level": 19,
+        "Move": "Take Down"
+      },
+      {
+        "Level": 1,
+        "Move": "Leer"
+      },
+      {
+        "Level": 67,
+        "Move": "Hydro Pump"
+      },
+      {
+        "Level": 13,
+        "Move": "Bubble Beam"
+      },
+      {
+        "Level": 25,
+        "Move": "Helping Hand"
+      },
+      {
+        "Level": 73,
+        "Move": "Close Combat"
+      },
+      {
+        "Level": 37,
+        "Move": "Aqua Tail"
+      },
+      {
+        "Level": 1,
+        "Move": "Aqua Jet"
+      },
+      {
+        "Level": 55,
+        "Move": "Quick Guard"
+      },
+      {
+        "Level": 31,
+        "Move": "Retaliate"
+      },
+      {
+        "Level": 61,
+        "Move": "Work Up"
+      },
+      {
+        "Level": 43,
+        "Move": "Sacred Sword"
+      }
+    ],
+    "TM Moves": [
+      {
+        "Machine": 0,
+        "Name": "Swords Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Cut"
+      },
+      {
+        "Machine": 0,
+        "Name": "Roar"
+      },
+      {
+        "Machine": 0,
+        "Name": "Surf"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hyper Beam"
+      },
+      {
+        "Machine": 0,
+        "Name": "Strength"
+      },
+      {
+        "Machine": 0,
+        "Name": "Toxic"
+      },
+      {
+        "Machine": 0,
+        "Name": "Double Team"
+      },
+      {
+        "Machine": 0,
+        "Name": "Reflect"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rest"
+      },
+      {
+        "Machine": 0,
+        "Name": "Substitute"
+      },
+      {
+        "Machine": 0,
+        "Name": "Protect"
+      },
+      {
+        "Machine": 0,
+        "Name": "False Swipe"
+      },
+      {
+        "Machine": 0,
+        "Name": "Swagger"
+      },
+      {
+        "Machine": 0,
+        "Name": "Return"
+      },
+      {
+        "Machine": 0,
+        "Name": "Frustration"
+      },
+      {
+        "Machine": 0,
+        "Name": "Safeguard"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hidden Power"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rain Dance"
+      },
+      {
+        "Machine": 0,
+        "Name": "Psych Up"
+      },
+      {
+        "Machine": 0,
+        "Name": "Rock Smash"
+      },
+      {
+        "Machine": 0,
+        "Name": "Hail"
+      },
+      {
+        "Machine": 0,
+        "Name": "Facade"
+      },
+      {
+        "Machine": 0,
+        "Name": "Taunt"
+      },
+      {
+        "Machine": 0,
+        "Name": "Aerial Ace"
+      },
+      {
+        "Machine": 0,
+        "Name": "Calm Mind"
+      },
+      {
+        "Machine": 0,
+        "Name": "Poison Jab"
+      },
+      {
+        "Machine": 0,
+        "Name": "X Scissor"
+      },
+      {
+        "Machine": 0,
+        "Name": "Focus Blast"
+      },
+      {
+        "Machine": 0,
+        "Name": "Giga Impact"
+      },
+      {
+        "Machine": 0,
+        "Name": "Stone Edge"
+      },
+      {
+        "Machine": 0,
+        "Name": "Round"
+      },
+      {
+        "Machine": 0,
+        "Name": "Scald"
+      },
+      {
+        "Machine": 0,
+        "Name": "Retaliate"
+      },
+      {
+        "Machine": 0,
+        "Name": "Work Up"
+      }
+    ],
+    "Tutor Moves": [
+      "Snore",
+      "Icy Wind",
+      "Sleep Talk",
+      "Helping Hand",
+      "Superpower",
+      "Endeavor",
+      "Bounce",
+      "Covet",
+      "Last Resort",
+      "Aqua Tail",
+      "Secret Sword"
+    ],
+    "height": 14,
+    "weight": 485,
+    "base_experience": 290,
+    "baseFormNumber": 555,
+    "formIndex": 704,
+    "Other Form Index": [646, 704],
+    "Defenses": {
+      "Immune": [],
+      "0.25x Resist": [],
+      "0.5x Resist": ["Fire", "Water", "Ice", "Bug", "Rock", "Dark", "Steel"],
+      "Neutral": ["Normal", "Fighting", "Poison", "Ground", "Ghost", "Dragon"],
+      "2x Weak ": ["Electric", "Grass", "Flying", "Psychic", "Fairy"],
+      "4x Weak": []
+    }
+  }
+]

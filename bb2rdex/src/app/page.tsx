@@ -6,6 +6,8 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import TypeBadge from "./components/TypeBadge";
 import Modal from "./components/Modal";
 import PokemonDetail from "./components/PokemonDetail";
+import AdvancedSearch, { SearchFilter } from "./components/AdvancedSearch";
+import { filterPokemon } from "./utils/pokemonFilter";
 
 const PAGE_SIZE = 30;
 const CATEGORIES = ["Pokemon", "Ability", "Move", "Type", "Location"];
@@ -54,6 +56,7 @@ function getValue(obj: any, accessor: string | ((row: any) => any)) {
 
 export default function Home() {
   const [allPokemon, setAllPokemon] = useState<any[]>([]);
+  const [allMoves, setAllMoves] = useState<{ [key: string]: any }>({});
   const [displayedPokemon, setDisplayedPokemon] = useState<any[]>([]);
   const [hasMore, setHasMore] = useState(true);
   const [search, setSearch] = useState("");
@@ -64,22 +67,33 @@ export default function Home() {
   });
   const [selectedPokemon, setSelectedPokemon] = useState<any>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [searchFilters, setSearchFilters] = useState<SearchFilter[]>([]);
 
-  // Load all Pokémon on mount
+  // Load all Pokémon and moves on mount
   useEffect(() => {
-    fetch("/data/pokemon.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setAllPokemon(data);
-        setDisplayedPokemon(data.slice(0, PAGE_SIZE));
-        setHasMore(data.length > PAGE_SIZE);
-      });
+    Promise.all([
+      fetch("/data/pokemon.json").then((res) => res.json()),
+      fetch("/data/moves.json").then((res) => res.json()),
+      fetch("/data/transformedAlternateForms.json")
+        .then((res) => res.json())
+        .catch(() => []),
+    ]).then(([pokemonData, movesData, alternateFormsData]) => {
+      // Combine Pokemon data with alternate forms for searching
+      const allPokemonCombined = [...pokemonData, ...alternateFormsData];
+      setAllPokemon(allPokemonCombined);
+      setAllMoves(movesData);
+      // Only display base Pokemon in the main list
+      setDisplayedPokemon(pokemonData.slice(0, PAGE_SIZE));
+      setHasMore(pokemonData.length > PAGE_SIZE);
+    });
   }, []);
 
   // Filter and sort logic
-  const filtered = allPokemon.filter((p) =>
+  const nameFiltered = allPokemon.filter((p) =>
     p.Name.toLowerCase().includes(search.toLowerCase())
   );
+  const advancedFiltered = filterPokemon(nameFiltered, searchFilters, allMoves);
+  const filtered = advancedFiltered;
   const sorted = [...filtered].sort((a, b) => {
     const col = sortState.column;
     let aValue, bValue;
@@ -113,7 +127,7 @@ export default function Home() {
   useEffect(() => {
     setDisplayedPokemon(sorted.slice(0, PAGE_SIZE));
     setHasMore(sorted.length > PAGE_SIZE);
-  }, [search, selectedCategory, allPokemon, sortState]);
+  }, [search, selectedCategory, allPokemon, sortState, searchFilters]);
 
   // Load more data for infinite scroll
   const fetchMoreData = () => {
@@ -150,7 +164,7 @@ export default function Home() {
       accessor: "Number",
       render: (row) => (
         <img
-          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${row.Number}.png`}
+          src={`/pokemon-sprites/pokemon/${row.Number}.png`}
           alt={row.Name}
           className="w-24 h-24"
         />
@@ -269,6 +283,15 @@ export default function Home() {
         className="w-full max-w-7xl mx-auto px-2 sm:px-4 md:px-8 py-4"
         style={{ paddingTop: "80px" }}
       >
+        {/* Advanced Search Component */}
+        <div className="mb-6">
+          <AdvancedSearch
+            allPokemon={allPokemon}
+            allMoves={allMoves}
+            onFiltersChange={setSearchFilters}
+          />
+        </div>
+
         <InfiniteScroll
           dataLength={displayedPokemon.length}
           next={fetchMoreData}
@@ -299,6 +322,7 @@ export default function Home() {
         <PokemonDetail
           pokemon={selectedPokemon}
           allPokemon={allPokemon}
+          allMoves={allMoves}
           onPokemonChange={handlePokemonChange}
         />
       </Modal>

@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "node scripts/copy-sprites.js && next build",
+    "export": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "next": "15.4.3",
+    "pokemon-sprites": "github:PokeAPI/sprites",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-infinite-scroll-component": "^6.1.0"

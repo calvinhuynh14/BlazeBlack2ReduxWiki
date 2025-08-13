@@ -21,14 +21,20 @@ const TYPE_COLORS: Record<string, string> = {
   Fairy: "bg-[#D685AD]",
 };
 
-export default function TypeBadge({ type }: { type: string }) {
+export default function TypeBadge({
+  type,
+  className = "",
+}: {
+  type: string;
+  className?: string;
+}) {
   const color = TYPE_COLORS[type] || "bg-gray-400 border-gray-400";
   return (
     <span
-      className={`px-1 py-1 rounded-xl border text-xs font-semibold text-white ${color} drop-shadow-sm`}
+      className={`rounded-xl border text-xs font-semibold text-white ${color} drop-shadow-sm ${className} flex items-center justify-center`}
       style={{
-        minWidth: 48,
-        display: "inline-block",
+        width: 64,
+        height: 24,
         textAlign: "center",
         textShadow: "0 2px 6px rgba(0,0,0,0.9), 0 0px 2px rgba(0,0,0,0.7)",
       }}

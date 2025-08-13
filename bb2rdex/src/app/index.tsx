@@ -12,14 +12,12 @@ export default function Home() {
     {
       name: "Bulbasaur",
       number: 1,
-      sprite:
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      sprite: "/pokemon-sprites/pokemon/1.png",
     },
     {
       name: "Ivysaur",
       number: 2,
-      sprite:
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      sprite: "/pokemon-sprites/pokemon/2.png",
     },
     // ...add more or load from your JSON
   ];

@@ -4,16 +4,21 @@ import StatBar from "./StatBar";
 import AbilityDisplay from "./AbilityDisplay";
 import BSTDisplay from "./BSTDisplay";
 import EvolutionDisplay from "./EvolutionDisplay";
+import MovesTable from "./MovesTable";
+import TypeDefensesChart from "./TypeDefensesChart";
+import AlternateForms from "./AlternateForms";
 
 interface PokemonDetailProps {
   pokemon: any;
   allPokemon?: any[];
+  allMoves?: { [key: string]: any };
   onPokemonChange?: (pokemonName: string) => void;
 }
 
 export default function PokemonDetail({
   pokemon,
   allPokemon = [],
+  allMoves = {},
   onPokemonChange,
 }: PokemonDetailProps) {
   if (!pokemon) return null;
@@ -52,13 +57,17 @@ export default function PokemonDetail({
   const containerWidth = Math.max(60, Math.min(90, maxPercentage + 30));
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* Header with sprite and basic info */}
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-4">
         <img
-          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.Number}.gif`}
+          src={`/pokemon-sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.Number}.gif`}
           alt={pokemon.Name}
-          className="max-w-24"
+          className="max-w-36"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = `/pokemon-sprites/pokemon/versions/generation-v/black-white/${pokemon.Number}.png`;
+          }}
         />
         <div>
           <h3 className="text-2xl font-bold text-[var(--text-color-light)] mb-2">
@@ -74,7 +83,7 @@ export default function PokemonDetail({
 
       {/* Abilities */}
       <div className="flex flex-col items-center">
-        <h4 className="text-lg font-semibold text-[var(--text-color-light)] mb-2">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-2">
           Abilities
         </h4>
         <div className="flex flex-col gap-2">
@@ -86,7 +95,7 @@ export default function PokemonDetail({
 
       {/* Stats */}
       <div className="flex flex-col items-center">
-        <h4 className="text-lg font-semibold text-[var(--text-color-light)] mb-3">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-2">
           Base Stats
         </h4>
         <div
@@ -134,7 +143,7 @@ export default function PokemonDetail({
 
       {/* Evolutions */}
       <div className="flex flex-col items-center">
-        <h4 className="text-lg font-semibold text-[var(--text-color-light)] mb-3">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-4">
           Evolution
         </h4>
         <EvolutionDisplay
@@ -142,6 +151,51 @@ export default function PokemonDetail({
           allPokemon={allPokemon}
           onPokemonChange={onPokemonChange}
         />
+      </div>
+
+      {/* Alternate Forms */}
+      {pokemon["Other Form Index"] &&
+        pokemon["Other Form Index"].length > 0 && (
+          <AlternateForms
+            pokemon={pokemon}
+            allPokemon={allPokemon}
+            alternateForms={allPokemon.filter((p) =>
+              pokemon["Other Form Index"].includes(p.formIndex || p.Number - 1)
+            )}
+            onPokemonChange={onPokemonChange}
+          />
+        )}
+
+      {/* Type Defenses */}
+      <div className="flex flex-col items-center">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-4">
+          Type Defenses
+        </h4>
+        <TypeDefensesChart defenses={pokemon.Defenses || {}} />
+      </div>
+
+      {/* Level-Up Moves */}
+      <div className="flex flex-col items-center">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-4">
+          Level-Up Moves
+        </h4>
+        <MovesTable pokemon={pokemon} allMoves={allMoves} moveType="level-up" />
+      </div>
+
+      {/* TM Moves */}
+      <div className="flex flex-col items-center">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-4">
+          TM/HM Moves
+        </h4>
+        <MovesTable pokemon={pokemon} allMoves={allMoves} moveType="tm-hm" />
+      </div>
+
+      {/* Tutor Moves */}
+      <div className="flex flex-col items-center">
+        <h4 className="text-xl font-bold text-[var(--text-color-light)] text-center uppercase tracking-wider mb-6">
+          Tutor Moves
+        </h4>
+        <MovesTable pokemon={pokemon} allMoves={allMoves} moveType="tutor" />
       </div>
     </div>
   );

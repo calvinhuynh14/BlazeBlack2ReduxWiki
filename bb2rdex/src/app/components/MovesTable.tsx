@@ -182,15 +182,17 @@ export default function MovesTable({
   }, [pokemon, allMoves, moveType, sortBy, sortDirection]);
 
   const getCategoryIcon = (category: string) => {
+    const basePath =
+      process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : "";
     switch (category.toLowerCase()) {
       case "physical":
-        return "/data/icons/PhysicalIC_Masters.png";
+        return `${basePath}/data/icons/PhysicalIC_Masters.png`;
       case "special":
-        return "/data/icons/SpecialIC_Masters.png";
+        return `${basePath}/data/icons/SpecialIC_Masters.png`;
       case "status":
-        return "/data/icons/StatusIC_Masters.png";
+        return `${basePath}/data/icons/StatusIC_Masters.png`;
       default:
-        return "/data/icons/StatusIC_Masters.png";
+        return `${basePath}/data/icons/StatusIC_Masters.png`;
     }
   };
 

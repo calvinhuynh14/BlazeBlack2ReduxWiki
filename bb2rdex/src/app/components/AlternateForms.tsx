@@ -79,7 +79,11 @@ export default function AlternateForms({
             title={form.Name}
           >
             <img
-              src={`/pokemon-sprites/pokemon/${form.Number}.png`}
+              src={`${
+                process.env.NODE_ENV === "production"
+                  ? "/BlazeBlack2ReduxWiki"
+                  : ""
+              }/pokemon-sprites/pokemon/${form.Number}.png`}
               alt={form.Name}
               className="w-12 md:w-18"
             />

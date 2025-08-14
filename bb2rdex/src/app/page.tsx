@@ -71,10 +71,12 @@ export default function Home() {
 
   // Load all Pokémon and moves on mount
   useEffect(() => {
+    const basePath =
+      process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : "";
     Promise.all([
-      fetch("/data/pokemon.json").then((res) => res.json()),
-      fetch("/data/moves.json").then((res) => res.json()),
-      fetch("/data/transformedAlternateForms.json")
+      fetch(`${basePath}/data/pokemon.json`).then((res) => res.json()),
+      fetch(`${basePath}/data/moves.json`).then((res) => res.json()),
+      fetch(`${basePath}/data/transformedAlternateForms.json`)
         .then((res) => res.json())
         .catch(() => []),
     ]).then(([pokemonData, movesData, alternateFormsData]) => {
@@ -162,13 +164,17 @@ export default function Home() {
     {
       label: "Sprite",
       accessor: "Number",
-      render: (row) => (
-        <img
-          src={`/pokemon-sprites/pokemon/${row.Number}.png`}
-          alt={row.Name}
-          className="w-24 h-24"
-        />
-      ),
+      render: (row) => {
+        const basePath =
+          process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : "";
+        return (
+          <img
+            src={`${basePath}/pokemon-sprites/pokemon/${row.Number}.png`}
+            alt={row.Name}
+            className="w-24 h-24"
+          />
+        );
+      },
     },
     { label: "Name", accessor: "Name", sortable: true },
     {

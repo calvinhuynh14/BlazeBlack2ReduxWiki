@@ -28,7 +28,9 @@ export default function EvolutionStage({
         onClick={handleClick}
       >
         <img
-          src={`/pokemon-sprites/pokemon/${evolution.number}.png`}
+          src={`${
+            process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : ""
+          }/pokemon-sprites/pokemon/${evolution.number}.png`}
           alt={evolution.name}
           className="w-12 md:w-18"
         />

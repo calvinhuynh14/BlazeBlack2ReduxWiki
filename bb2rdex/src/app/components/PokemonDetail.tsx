@@ -61,12 +61,22 @@ export default function PokemonDetail({
       {/* Header with sprite and basic info */}
       <div className="flex flex-col items-center gap-4">
         <img
-          src={`/pokemon-sprites/pokemon/versions/generation-v/black-white/animated/${pokemon.Number}.gif`}
+          src={`${
+            process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : ""
+          }/pokemon-sprites/pokemon/versions/generation-v/black-white/animated/${
+            pokemon.Number
+          }.gif`}
           alt={pokemon.Name}
           className="max-w-36"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
-            target.src = `/pokemon-sprites/pokemon/versions/generation-v/black-white/${pokemon.Number}.png`;
+            target.src = `${
+              process.env.NODE_ENV === "production"
+                ? "/BlazeBlack2ReduxWiki"
+                : ""
+            }/pokemon-sprites/pokemon/versions/generation-v/black-white/${
+              pokemon.Number
+            }.png`;
           }}
         />
         <div>

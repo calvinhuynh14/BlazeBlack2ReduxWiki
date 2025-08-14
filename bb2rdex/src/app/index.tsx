@@ -12,12 +12,16 @@ export default function Home() {
     {
       name: "Bulbasaur",
       number: 1,
-      sprite: "/pokemon-sprites/pokemon/1.png",
+      sprite: `${
+        process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : ""
+      }/pokemon-sprites/pokemon/1.png`,
     },
     {
       name: "Ivysaur",
       number: 2,
-      sprite: "/pokemon-sprites/pokemon/2.png",
+      sprite: `${
+        process.env.NODE_ENV === "production" ? "/BlazeBlack2ReduxWiki" : ""
+      }/pokemon-sprites/pokemon/2.png`,
     },
     // ...add more or load from your JSON
   ];
